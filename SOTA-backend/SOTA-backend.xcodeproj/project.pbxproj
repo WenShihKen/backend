@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE421BAA1FEBF5C400D197E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE421BA91FEBF5C400D197E0 /* AppDelegate.swift */; };
+		BE421BAC1FEBF5C400D197E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE421BAB1FEBF5C400D197E0 /* ViewController.swift */; };
+		BE421BAF1FEBF5C400D197E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE421BAD1FEBF5C400D197E0 /* Main.storyboard */; };
+		BE421BB11FEBF5C400D197E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE421BB01FEBF5C400D197E0 /* Assets.xcassets */; };
+		BE421BB41FEBF5C400D197E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE421BB21FEBF5C400D197E0 /* LaunchScreen.storyboard */; };
+		BE421BBF1FEBF5C500D197E0 /* SOTA_backendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE421BBE1FEBF5C500D197E0 /* SOTA_backendTests.swift */; };
+		BE421BCA1FEBF5C500D197E0 /* SOTA_backendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE421BC91FEBF5C500D197E0 /* SOTA_backendUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE421BBB1FEBF5C500D197E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE421B9E1FEBF5C400D197E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE421BA51FEBF5C400D197E0;
+			remoteInfo = "SOTA-backend";
+		};
+		BE421BC61FEBF5C500D197E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE421B9E1FEBF5C400D197E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE421BA51FEBF5C400D197E0;
+			remoteInfo = "SOTA-backend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE421BA61FEBF5C400D197E0 /* SOTA-backend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOTA-backend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE421BA91FEBF5C400D197E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE421BAB1FEBF5C400D197E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE421BAE1FEBF5C400D197E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE421BB01FEBF5C400D197E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE421BB31FEBF5C400D197E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE421BB51FEBF5C400D197E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE421BBA1FEBF5C500D197E0 /* SOTA-backendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SOTA-backendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE421BBE1FEBF5C500D197E0 /* SOTA_backendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOTA_backendTests.swift; sourceTree = "<group>"; };
+		BE421BC01FEBF5C500D197E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE421BC51FEBF5C500D197E0 /* SOTA-backendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SOTA-backendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE421BC91FEBF5C500D197E0 /* SOTA_backendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOTA_backendUITests.swift; sourceTree = "<group>"; };
+		BE421BCB1FEBF5C500D197E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE421BA31FEBF5C400D197E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE421BB71FEBF5C500D197E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE421BC21FEBF5C500D197E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE421B9D1FEBF5C400D197E0 = {
+			isa = PBXGroup;
+			children = (
+				BE421BA81FEBF5C400D197E0 /* SOTA-backend */,
+				BE421BBD1FEBF5C500D197E0 /* SOTA-backendTests */,
+				BE421BC81FEBF5C500D197E0 /* SOTA-backendUITests */,
+				BE421BA71FEBF5C400D197E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE421BA71FEBF5C400D197E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE421BA61FEBF5C400D197E0 /* SOTA-backend.app */,
+				BE421BBA1FEBF5C500D197E0 /* SOTA-backendTests.xctest */,
+				BE421BC51FEBF5C500D197E0 /* SOTA-backendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE421BA81FEBF5C400D197E0 /* SOTA-backend */ = {
+			isa = PBXGroup;
+			children = (
+				BE421BA91FEBF5C400D197E0 /* AppDelegate.swift */,
+				BE421BAB1FEBF5C400D197E0 /* ViewController.swift */,
+				BE421BAD1FEBF5C400D197E0 /* Main.storyboard */,
+				BE421BB01FEBF5C400D197E0 /* Assets.xcassets */,
+				BE421BB21FEBF5C400D197E0 /* LaunchScreen.storyboard */,
+				BE421BB51FEBF5C400D197E0 /* Info.plist */,
+			);
+			path = "SOTA-backend";
+			sourceTree = "<group>";
+		};
+		BE421BBD1FEBF5C500D197E0 /* SOTA-backendTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE421BBE1FEBF5C500D197E0 /* SOTA_backendTests.swift */,
+				BE421BC01FEBF5C500D197E0 /* Info.plist */,
+			);
+			path = "SOTA-backendTests";
+			sourceTree = "<group>";
+		};
+		BE421BC81FEBF5C500D197E0 /* SOTA-backendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE421BC91FEBF5C500D197E0 /* SOTA_backendUITests.swift */,
+				BE421BCB1FEBF5C500D197E0 /* Info.plist */,
+			);
+			path = "SOTA-backendUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE421BA51FEBF5C400D197E0 /* SOTA-backend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE421BCE1FEBF5C500D197E0 /* Build configuration list for PBXNativeTarget "SOTA-backend" */;
+			buildPhases = (
+				BE421BA21FEBF5C400D197E0 /* Sources */,
+				BE421BA31FEBF5C400D197E0 /* Frameworks */,
+				BE421BA41FEBF5C400D197E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SOTA-backend";
+			productName = "SOTA-backend";
+			productReference = BE421BA61FEBF5C400D197E0 /* SOTA-backend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE421BB91FEBF5C500D197E0 /* SOTA-backendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE421BD11FEBF5C500D197E0 /* Build configuration list for PBXNativeTarget "SOTA-backendTests" */;
+			buildPhases = (
+				BE421BB61FEBF5C500D197E0 /* Sources */,
+				BE421BB71FEBF5C500D197E0 /* Frameworks */,
+				BE421BB81FEBF5C500D197E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE421BBC1FEBF5C500D197E0 /* PBXTargetDependency */,
+			);
+			name = "SOTA-backendTests";
+			productName = "SOTA-backendTests";
+			productReference = BE421BBA1FEBF5C500D197E0 /* SOTA-backendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE421BC41FEBF5C500D197E0 /* SOTA-backendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE421BD41FEBF5C500D197E0 /* Build configuration list for PBXNativeTarget "SOTA-backendUITests" */;
+			buildPhases = (
+				BE421BC11FEBF5C500D197E0 /* Sources */,
+				BE421BC21FEBF5C500D197E0 /* Frameworks */,
+				BE421BC31FEBF5C500D197E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE421BC71FEBF5C500D197E0 /* PBXTargetDependency */,
+			);
+			name = "SOTA-backendUITests";
+			productName = "SOTA-backendUITests";
+			productReference = BE421BC51FEBF5C500D197E0 /* SOTA-backendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE421B9E1FEBF5C400D197E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = no;
+				TargetAttributes = {
+					BE421BA51FEBF5C400D197E0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BE421BB91FEBF5C500D197E0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE421BA51FEBF5C400D197E0;
+					};
+					BE421BC41FEBF5C500D197E0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE421BA51FEBF5C400D197E0;
+					};
+				};
+			};
+			buildConfigurationList = BE421BA11FEBF5C400D197E0 /* Build configuration list for PBXProject "SOTA-backend" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE421B9D1FEBF5C400D197E0;
+			productRefGroup = BE421BA71FEBF5C400D197E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE421BA51FEBF5C400D197E0 /* SOTA-backend */,
+				BE421BB91FEBF5C500D197E0 /* SOTA-backendTests */,
+				BE421BC41FEBF5C500D197E0 /* SOTA-backendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE421BA41FEBF5C400D197E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE421BB41FEBF5C400D197E0 /* LaunchScreen.storyboard in Resources */,
+				BE421BB11FEBF5C400D197E0 /* Assets.xcassets in Resources */,
+				BE421BAF1FEBF5C400D197E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE421BB81FEBF5C500D197E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE421BC31FEBF5C500D197E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE421BA21FEBF5C400D197E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE421BAC1FEBF5C400D197E0 /* ViewController.swift in Sources */,
+				BE421BAA1FEBF5C400D197E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE421BB61FEBF5C500D197E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE421BBF1FEBF5C500D197E0 /* SOTA_backendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE421BC11FEBF5C500D197E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE421BCA1FEBF5C500D197E0 /* SOTA_backendUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE421BBC1FEBF5C500D197E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE421BA51FEBF5C400D197E0 /* SOTA-backend */;
+			targetProxy = BE421BBB1FEBF5C500D197E0 /* PBXContainerItemProxy */;
+		};
+		BE421BC71FEBF5C500D197E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE421BA51FEBF5C400D197E0 /* SOTA-backend */;
+			targetProxy = BE421BC61FEBF5C500D197E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE421BAD1FEBF5C400D197E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE421BAE1FEBF5C400D197E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE421BB21FEBF5C400D197E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE421BB31FEBF5C400D197E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE421BCC1FEBF5C500D197E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE421BCD1FEBF5C500D197E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE421BCF1FEBF5C500D197E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEEV6R355X;
+				INFOPLIST_FILE = "SOTA-backend/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SOTA.SOTA-backend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE421BD01FEBF5C500D197E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEEV6R355X;
+				INFOPLIST_FILE = "SOTA-backend/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SOTA.SOTA-backend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE421BD21FEBF5C500D197E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEEV6R355X;
+				INFOPLIST_FILE = "SOTA-backendTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SOTA.SOTA-backendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOTA-backend.app/SOTA-backend";
+			};
+			name = Debug;
+		};
+		BE421BD31FEBF5C500D197E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEEV6R355X;
+				INFOPLIST_FILE = "SOTA-backendTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SOTA.SOTA-backendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOTA-backend.app/SOTA-backend";
+			};
+			name = Release;
+		};
+		BE421BD51FEBF5C500D197E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEEV6R355X;
+				INFOPLIST_FILE = "SOTA-backendUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SOTA.SOTA-backendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SOTA-backend";
+			};
+			name = Debug;
+		};
+		BE421BD61FEBF5C500D197E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEEV6R355X;
+				INFOPLIST_FILE = "SOTA-backendUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SOTA.SOTA-backendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SOTA-backend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE421BA11FEBF5C400D197E0 /* Build configuration list for PBXProject "SOTA-backend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE421BCC1FEBF5C500D197E0 /* Debug */,
+				BE421BCD1FEBF5C500D197E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE421BCE1FEBF5C500D197E0 /* Build configuration list for PBXNativeTarget "SOTA-backend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE421BCF1FEBF5C500D197E0 /* Debug */,
+				BE421BD01FEBF5C500D197E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE421BD11FEBF5C500D197E0 /* Build configuration list for PBXNativeTarget "SOTA-backendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE421BD21FEBF5C500D197E0 /* Debug */,
+				BE421BD31FEBF5C500D197E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE421BD41FEBF5C500D197E0 /* Build configuration list for PBXNativeTarget "SOTA-backendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE421BD51FEBF5C500D197E0 /* Debug */,
+				BE421BD61FEBF5C500D197E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE421B9E1FEBF5C400D197E0 /* Project object */;
+}
