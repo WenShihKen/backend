@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Sign in{% endblock %}
+
+{% block panelTitle %}Please Sign in{% endblock %}
+
+{% block TheForm %}
+<form method='post' action={{ url_for('login_app.usrlogin') }}>
+                            
+    <div class="form-group">
+      帳號{{ form.username(class_="form-control required", placeholder="輸入你的帳號") }}
+    </div>
+    <div class="form-group">
+      密碼{{ form.password(class_="form-control required", placeholder="輸入你的密碼") }}
+    </div>
+    
+    {{ form.csrf_token }}
+    <!-- Change this to a button or input when using this as a form -->
+    <button type="submit" class="btn btn-lg btn-success btn-block">Sign in</button>
+</form>
+
+<div><p class="text-center">No account??</p></div>
+
+<a href="/register" class="btn btn-lg btn-success btn-block">Sign up</a>
+{% endblock %}
