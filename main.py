@@ -1,5 +1,5 @@
 #coding=utf-8
-from flask import Flask, request, render_template, redirect, url_for, flash, Blueprint
+from flask import Flask, request, render_template, redirect, url_for, flash, Blueprint, session
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user, fresh_login_required
 from Login_Handle import AuthChecking, LoginForm, LoginRoute
 from Register_Handle import RegisterForm, AddUser, RegisterRoute
@@ -10,6 +10,7 @@ app.register_blueprint(LoginRoute.login_app)
 app.register_blueprint(RegisterRoute.register_app)
 app.secret_key = "TFKUYGILUHCFHJTFKYG5768567"
 
+#login_manager前定義
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = "login"
@@ -41,7 +42,8 @@ def logout():
 
 @login_manager.unauthorized_handler
 def unauthorized_handler():
-    return 'Unauthorized'
+    form = LoginForm.LoginForm(request.form)
+    return render_template('login.html', error="You're unauthorized!!!", form=form)
 
 @app.route('/')
 def homepage():

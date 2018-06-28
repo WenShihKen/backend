@@ -20,6 +20,8 @@
 
 ## [這裡是GAE的GUI連結](https://cloud.google.com/appengine/docs/standard/python/download)
 
+## [dashboard所使用的模板](https://startbootstrap.com/template-overviews/sb-admin-2/)
+
 ### ToDoList: 持續新增
 
     登入登出功能大致完成(還沒有session)

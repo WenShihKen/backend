@@ -8,6 +8,10 @@ login_app = Blueprint('login_app',__name__,"templates")
 
 @login_app.route('/login', methods=['GET','POST'])
 def usrlogin():
+    if current_user.get_id() != None: #If login redirect to mainpage
+        next = request.args.get('next')
+        return redirect(next or url_for('mainpage'))
+    
     error = None
     form = LoginForm.LoginForm(request.form)
     if request.method == 'POST' and form.validate():

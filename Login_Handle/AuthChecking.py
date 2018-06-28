@@ -4,7 +4,7 @@ import HashingPassword
 def LoginCheck(account, password):
     password = HashingPassword.hashSafe(password)
 
-    db = _connect.Connect_To_CloudSQL('UserData')
+    db = _connect.Connect_To_CloudSQL('userData')
     cursor = db.cursor()
     cursor.execute("SELECT EXISTS(select * from user where username = %s AND password = %s)" ,
         (account , password,))

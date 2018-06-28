@@ -2,7 +2,7 @@ import connectSql as _connect
 import HashingPassword
 
 def SameUserCheck(account):
-    db = _connect.Connect_To_CloudSQL('UserData')
+    db = _connect.Connect_To_CloudSQL('userData')
     cursor = db.cursor()
     cursor.execute("SELECT EXISTS(select * from user where username = %s)" ,
         (account,))
@@ -16,7 +16,7 @@ def SameUserCheck(account):
 def InsertUser(account, password):
     password = HashingPassword.hashSafe(password)
 
-    db = _connect.Connect_To_CloudSQL('UserData')
+    db = _connect.Connect_To_CloudSQL('userData')
     cursor = db.cursor()
     cursor.execute("INSERT INTO user (username, password) VALUES (%s, %s)" ,
         (account, password,))

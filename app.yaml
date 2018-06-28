@@ -1,4 +1,4 @@
-application: sota-199909
+application: sotaagriculture
 version: 123
 runtime: python27
 api_version: 1
@@ -21,6 +21,6 @@ libraries:
   version: latest
 
 env_variables:
-  CLOUDSQL_CONNECTION_NAME: sota-199909:us-central1:sigfoxdevice
+  CLOUDSQL_CONNECTION_NAME: sotaagriculture:us-central1:sigfoxdevice
   CLOUDSQL_USER: root
-  CLOUDSQL_PASSWORD: 7xZqgOF4ojzcPda7ImXhm1RoQpJhvz
+  CLOUDSQL_PASSWORD: k6vjyXC3L7dKT2DKrCTs
