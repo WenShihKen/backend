@@ -6,6 +6,7 @@ import MySQLdb
 CLOUDSQL_CONNECTION_NAME = os.environ.get('CLOUDSQL_CONNECTION_NAME')
 CLOUDSQL_USER = os.environ.get('CLOUDSQL_USER')
 CLOUDSQL_PASSWORD = os.environ.get('CLOUDSQL_PASSWORD')
+CLOUDSQL_ADDRESS = os.environ.get('CLOUDSQL_ADDRESS')
 
 
 def Connect_To_CloudSQL(dbname):
@@ -31,7 +32,7 @@ def Connect_To_CloudSQL(dbname):
     #
     else:
         db = MySQLdb.connect(
-            unix_socket=cloudsql_unix_socket,
+            CLOUDSQL_ADDRESS,
             user=CLOUDSQL_USER,
             passwd=CLOUDSQL_PASSWORD,
             db=dbname)
