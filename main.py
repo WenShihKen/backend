@@ -4,6 +4,8 @@ from flask_login import LoginManager, UserMixin, login_user, login_required, log
 from Login_Handle import AuthChecking, LoginForm, LoginRoute
 from Register_Handle import RegisterForm, AddUser, RegisterRoute
 
+from GetDevice_Handle import GetDevice
+
 
 app = Flask(__name__, template_folder="templates")
 app.register_blueprint(LoginRoute.login_app)
@@ -32,7 +34,10 @@ def load_user(userid):
 @app.route('/mainpage')
 @fresh_login_required
 def mainpage():
-    return render_template("index.html", username=current_user.get_id())
+    YourDevice = GetDevice.getAllDevice(current_user.get_id())
+    print YourDevice
+    return render_template("index.html", username=current_user.get_id(), 
+        ALL_devices = YourDevice)
 
 @app.route('/logout')
 @login_required
